@@ -1,0 +1,7 @@
+.payment__content{
+    display: block;
+}
+
+.payment__content-input_width_default {
+    width: 60%;
+}

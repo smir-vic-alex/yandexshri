@@ -1,0 +1,8 @@
+.header__logo {
+    width: 179px;
+    height: 34px;
+}
+
+.header__logo_color_default{
+    background-color: var(--theme-color-main);
+}

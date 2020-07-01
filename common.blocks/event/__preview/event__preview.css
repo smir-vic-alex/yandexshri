@@ -1,0 +1,9 @@
+.event__preview {
+    width: 135px;
+    margin: 0 auto;
+    padding-bottom: var(--size-default-lh-xxl);
+    display: flex;
+    justify-content: space-between;
+}
+
+

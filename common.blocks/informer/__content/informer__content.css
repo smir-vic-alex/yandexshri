@@ -1,0 +1,26 @@
+.informer__content {
+
+}
+
+.informer__content_distribute_default {
+    display: flex;
+    justify-content: start;
+}
+
+.informer__content_distribute_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informer__content_distribute_center {
+    justify-content: center;
+    display: flex;
+}
+
+.informer__content_space-a_xl {
+    padding: var(--space-default-xl);
+}
+
+.informer__content_space-a_xxl {
+    padding: var(--space-default-xxl);
+}

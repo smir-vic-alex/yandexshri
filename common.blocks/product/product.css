@@ -1,0 +1,19 @@
+.product {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product_image_size {
+    height: 160px;
+}
+
+.product__image {
+    height: 160px;
+}
+
+.product__title {
+    /*padding-top: var(--space-default-xxxl);*/
+    padding-bottom: var(--space-default-xxxl);
+}

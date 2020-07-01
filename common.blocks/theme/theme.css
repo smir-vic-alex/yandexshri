@@ -1,0 +1,24 @@
+* {
+    /*-webkit-box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+.theme {
+
+}
+
+.theme_breakpoint_default {
+    --breakpoint: 1024px;
+}
+
+.theme_gap_small {
+    --gap: var(--space-default-xl);
+    --gap-half: calc(var(--gap) * 0.5);
+}
+
+@media handheld {
+    .theme_gap_small {
+        --gap: var(--space-default-s);
+        --gap-half: calc(var(--gap) * 0.5);
+    }
+}

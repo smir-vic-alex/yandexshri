@@ -1,0 +1,13 @@
+.text{
+    display: flex;
+}
+
+.text_align_center {
+    justify-content: center;
+}
+
+
+
+
+
+

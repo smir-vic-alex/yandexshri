@@ -1,0 +1,13 @@
+.theme_space_default {
+    --space-default-xxxs: 3px;
+    --space-default-xxs: 6px;
+    --space-default-xs: 9px;
+    --space-default-s: 15px;
+    --space-default-m: 18px;
+    --space-default-l: 24px;
+    --space-default-xl: 27px;
+    --space-default-xxl: 36px;
+    --space-default-xxxl: 45px;
+    --space-default-xxxxl: 51px;
+    --space-default-xxxxxl: 72px;
+}

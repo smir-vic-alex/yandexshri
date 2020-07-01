@@ -1,0 +1,15 @@
+.onoffswitch {
+    width: 97px;
+    height: 32px;
+    border: 2px solid var(--theme-bg-border);
+    display: flex;
+    padding: 2px;
+}
+
+.onoffswitch_mode_on {
+    justify-content: flex-start;
+}
+
+.onoffswitch_mode_off {
+    justify-content: flex-end;
+}

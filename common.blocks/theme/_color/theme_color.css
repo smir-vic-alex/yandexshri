@@ -1,0 +1,45 @@
+.theme_color_project-default {
+    --theme-bg-defaut: #FFFFFF;
+    --theme-bg-accent: #ffcc00;
+    --theme-bg-border: #000000;
+    --theme-color-main: #000000;
+    --theme-color-secondary: rgba(0, 0, 0, 0.6);
+    --theme-color-additional: rgba(0, 0, 0, 0.3);
+    --theme-color-link: #0077ff;
+    --theme-image: url(image-placeholder-primary.svg);
+    --theme-image-inverse: url(image-placeholder-inverse.svg);
+}
+
+.theme_color_project-brand {
+    --theme-bg-defaut: #0077ff;
+    --theme-bg-accent: #FFFFFF;
+    --theme-bg-border: #FFFFFF;
+    --theme-color-main: #FFFFFF;
+    --theme-color-secondary: rgba(255, 255, 255, 0.6);
+    --theme-color-additional: rgba(255, 255, 255, 0.3);
+    --theme-color-link: #FFFFFF;
+    --theme-image: url(image-placeholder-inverse.svg);
+    --theme-image-inverse: url(image-placeholder-primary.svg);
+}
+
+.theme_color_project-inverse {
+    --theme-bg-defaut: #000000;
+    --theme-bg-accent: #FFFFFF;
+    --theme-bg-border: #FFFFFF;
+    --theme-color-main: #FFFFFF;
+    --theme-color-secondary: rgba(255, 255, 255, 0.6);
+    --theme-color-additional: rgba(255, 255, 255, 0.3);
+    --theme-color-link: #0077ff;
+    --theme-image: url(image-placeholder-inverse.svg);
+    --theme-image-inverse: url(image-placeholder-primary.svg);
+}
+
+.theme_color_project-warning {
+    --theme-bg-defaut: #ff3333;
+    --theme-bg-accent: #FFFFFF;
+    --theme-bg-border: #ff3333;
+    --theme-color-main: #FFFFFF;
+    --theme-color-secondary: rgba(255, 255, 255, 0.6);
+    --theme-color-additional: rgba(255, 255, 255, 0.3);
+    --theme-color-link: #FFF;
+}

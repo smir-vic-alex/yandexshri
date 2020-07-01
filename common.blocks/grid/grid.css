@@ -1,0 +1,67 @@
+.grid {
+    display: block;
+    /*max-width: 1024px;*/
+    width: 100%;
+}
+
+.grid_col-gap_two-thirds {
+    --g-c-gap: calc(var(--gap) * 0.66);
+}
+
+.grid_col-gap_full {
+    --g-c-gap: var(--gap);
+}
+
+.grid_col-gap_half {
+    --g-c-gap: var(--gap-half);
+}
+
+.grid_row-gap_full {
+    --g-r-gap: var(--gap);
+}
+
+.grid_row-gap_half {
+    --g-r-gap: var(--gap-half);
+}
+
+@media (min-width: 1024px) {
+
+    .grid__fraction{
+        display: grid;
+        grid-column-gap: var(--g-c-gap);
+        grid-row-gap: var(--g-r-gap);
+    }
+
+    .grid_m-columns_12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .grid_m-columns_10 {
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    .grid__fraction_m-col_2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid__fraction_m-col_3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid__fraction_m-col_4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid__fraction_m-col_5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .grid__fraction_m-col_8 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .grid__item_fill_2-4 {
+        grid-column: 2 / 4;
+    }
+}
+

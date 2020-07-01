@@ -1,0 +1,3 @@
+block('theme')(
+    js()(true)
+);

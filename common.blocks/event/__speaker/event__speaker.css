@@ -1,0 +1,10 @@
+.event__speaker {
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+}
+
+.event__speaker_inline_block {
+    display: inline-block;
+
+}

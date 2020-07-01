@@ -1,0 +1,19 @@
+.informer__action_distribute_default {
+    justify-content: start;
+}
+
+.informer__action_distribute_between {
+    justify-content: space-between;
+}
+
+.informer__action_distribute_center {
+    margin: 0 auto;
+}
+
+.informer__action_space-a_xl {
+    padding: var(--space-default-xl);
+}
+
+.informer__action_space-a_xxl {
+    padding: var(--space-default-xxl);
+}

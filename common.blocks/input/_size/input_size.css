@@ -1,0 +1,24 @@
+.input_size_s {
+    height: 24px;
+    width: 100%;
+}
+
+.input_size_m {
+    height: 32px;
+    width: 100%;
+}
+
+.input_size_l {
+    height: 42px;
+    width: 100%;
+}
+
+.input_size_xl {
+    height: 56px;
+    width: 100%;
+}
+
+.input_size_xxl {
+    height: 64px;
+    width: 100%;
+}

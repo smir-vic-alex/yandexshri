@@ -1,0 +1,13 @@
+block('history').elem('description')(
+    mix()(
+        [
+            {
+                block:'list',
+                elem:'item',
+                elemMods:{
+                    'indent-b':'m'
+                }
+            }
+        ]
+    )
+)

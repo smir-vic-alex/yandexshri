@@ -1,0 +1,7 @@
+.history__hide_item-space_default {
+    margin-bottom: var(--space-default-s);
+}
+
+.history__hide_item-space_xxxl {
+    margin-bottom: var(--space-default-xxxl);
+}

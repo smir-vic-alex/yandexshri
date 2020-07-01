@@ -1,0 +1,14 @@
+block('history').elem('actions')(
+    mix()(
+        [
+            {
+                block:'list',
+                elem:'item',
+                elemMods:{
+                    distribute:'between',
+                    'indent-b':'l'
+                }
+            }
+        ]
+    )
+);

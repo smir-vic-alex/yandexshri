@@ -1,0 +1,5 @@
+.history__show {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

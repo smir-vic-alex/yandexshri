@@ -1,0 +1,8 @@
+.placeholder_size_m {
+    height: 72px;
+    width: 72px;
+}
+
+.placeholder_view_primary {
+    background-color: var(--theme-color-main)
+}

@@ -1,0 +1,7 @@
+.informer_border_all {
+    border: 3px solid var(--theme-bg-border);
+}
+
+.informer_view_default {
+    background-color: var(--theme-bg-defaut);
+}

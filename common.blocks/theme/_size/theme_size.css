@@ -1,0 +1,13 @@
+.theme_size_default {
+    --size-default-height-s: 8px;
+    --size-default-height-m: 10px;
+    --size-default-height-l: 11px;
+    --size-default-height-xl: 13px;
+    --size-default-height-xxl: 16px;
+
+    --size-default-lh-s: 21px;
+    --size-default-lh-m: 25px;
+    --size-default-lh-l: 28px;
+    --size-default-lh-xl: 34px;
+    --size-default-lh-xxl: 38px;
+}
