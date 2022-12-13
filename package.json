@@ -25,7 +25,7 @@
     "debug-http": "^1.1.0",
     "decache": "^4.4.0",
     "errorhandler": "^1.4.3",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "express-session": "^1.13.0",
     "lodash": "^4.11.2",
     "morgan": "^1.7.0",
